@@ -1,0 +1,13 @@
+### Create a new item
+POST http://127.0.0.1:8000/items/
+Content-Type: application/json
+
+{
+  "name": "Sample Item",
+  "description": "This is a sample item",
+  "price": 10.99,
+  "quantity": 3
+}
+
+### Retrieve all items
+GET http://127.0.0.1:8000/items/
